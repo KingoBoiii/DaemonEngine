@@ -1,0 +1,27 @@
+[submodule "KingoEngine/Vendor/spdlog"]
+	path = KingoEngine/Vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+	branch = v1.x
+[submodule "KingoEngine/Vendor/glfw"]
+	path = KingoEngine/Vendor/glfw
+	url = https://github.com/engine-forks/glfw.git
+	branch = master
+[submodule "KingoEngine/Vendor/imgui"]
+	path = KingoEngine/Vendor/imgui
+	url = https://github.com/engine-forks/imgui.git
+	branch = docking
+[submodule "KingoEngine/Vendor/glm"]
+	path = KingoEngine/Vendor/glm
+	url = https://github.com/g-truc/glm.git
+	branch = master
+[submodule "KingoEngine/Vendor/box2d"]
+	path = KingoEngine/Vendor/box2d
+	url = https://github.com/engine-forks/box2d.git
+	branch = master
+[submodule "KingoEngine/Vendor/yaml-cpp"]
+	path = KingoEngine/Vendor/yaml-cpp
+	url = https://github.com/engine-forks/yaml-cpp.git
+	branch = master
+[submodule "KingoEngine/Vendor/ImGuizmo"]
+	path = KingoEngine/Vendor/ImGuizmo
+	url = https://github.com/engine-forks/ImGuizmo

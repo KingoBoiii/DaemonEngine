@@ -1,0 +1,101 @@
+Scene: Unnamed
+Entities:
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundNE
+    TransformComponent:
+      Position: [-1, 0, 1]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999997795, 0.999997795]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0941176489, 0.392156869, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundNW
+    TransformComponent:
+      Position: [1, 0, 1]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999995112, 0.999995112]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0941176489, 0.392156869, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundSE
+    TransformComponent:
+      Position: [-1, 0, -1]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999996066, 0.999996066]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0705882385, 0.294117659, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundSW
+    TransformComponent:
+      Position: [1, 0, -1]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999993563, 0.999993563]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0705882385, 0.294117659, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundNorth
+    TransformComponent:
+      Position: [0, 0, 1]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999997497, 0.999997497]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0922721997, 0.392156869, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundSW
+    TransformComponent:
+      Position: [0, 0, -1]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999997318, 0.999997318]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0692041516, 0.294117659, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundWest
+    TransformComponent:
+      Position: [1, 0, 0]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999997258, 0.999997258]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0784313753, 0.325490206, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundEast
+    TransformComponent:
+      Position: [-1, 0, 0]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999985516, 0.999985516]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0784313753, 0.325490206, 0, 1]
+  - Entity: 123456789012
+    TagComponent:
+      Tag: GroundMiddle
+    TransformComponent:
+      Position: [0, 0, 0]
+      Rotation: [1.57079637, 0, 0]
+      Scale: [1, 0.999999642, 0.999999642]
+    SpriteRendererComponent:
+      PolygonType: 0
+      Quad:
+        Color: [0.0765859261, 0.325490206, 0, 1]
