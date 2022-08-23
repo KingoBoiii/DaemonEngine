@@ -332,7 +332,9 @@ namespace Daemon
 
 							const wchar_t* path = (const wchar_t*)payload->Data;
 							std::filesystem::path texturePath = std::filesystem::path(g_AssetPath) / path;
-							data->Sprite = Texture2D::Create(texturePath.string());
+							TextureSpecification textureSpecification;
+							textureSpecification.FlipVertically = flipTexture;
+							data->Sprite = Texture2D::Create(texturePath.string(), textureSpecification);
 						}
 						ImGui::EndDragDropTarget();
 					}
